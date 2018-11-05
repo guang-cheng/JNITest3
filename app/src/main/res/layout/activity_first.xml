@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:id="@+id/scrollView2"
+                android:layout_width="match_parent"
+                android:background="#ff00ff"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/sample_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n
+我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n
+我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n
+我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n
+我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n
+我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n
+我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n
+我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n
+我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n我是一直\n
+"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </LinearLayout>
+            </ScrollView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n小小鸟\n小小鸟\n小小鸟\n\n小小鸟\n小小鸟\n小小鸟\n\n小小鸟\n小小鸟\n小小鸟\n\n小小鸟\n小小鸟\n小小鸟\n\n小小鸟\n小小鸟\n小小鸟\n\n小小鸟\n小小鸟\n小小鸟\n小小鸟\n小小鸟\n小小鸟\n小小鸟\n小小鸟\n小小鸟\n小小鸟\n小小鸟\n小小鸟\n小小鸟\n小小鸟\n小小鸟\n小小鸟\n小小鸟\n小小鸟\n小小鸟\n小小鸟\n小小鸟\n小小鸟\n小小鸟\n小小鸟\n小小鸟\n小小鸟\n"/>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
